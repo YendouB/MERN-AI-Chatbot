@@ -19,9 +19,9 @@ This web application is a conversational AI chatbot built with MERN (MongoDB, Ex
 
 ## Technologies Used
 
-- FRONTEND : TypeScript, React.js, Material UI, Vitejs
-- BACKEND : TypeScript, Node.js, Express.js
-- DATABASE : MongoDB, Mongoose
+- **FRONTEND:** TypeScript, React.js, Material UI, Vitejs
+- **BACKEND :** TypeScript, Node.js, Express.js
+- **DATABASE :** MongoDB, Mongoose
 
 ## Getting Started
 
@@ -60,7 +60,7 @@ npm install
     COOKIE_SECRET=
 
     BACKEND_PORT=
-    
+
     DOMAIN= (your web domain, it can be localhost)
 
 2. In the `frontend/src/main.tsx` file, modify the `axios.defaults.baseURL` to match your backend server URL:
@@ -77,11 +77,11 @@ app.use(cors({ origin: "http://localhost:5173", credentials: true }));
 
 ### Running the Application on dev environnement
 1. Start the frontend server:
-cd frontend
+cd frontend  
 npm run dev
 
 2. Start the frontend server:
-cd backend
+cd backend  
 npm run dev
 
 ## Acknowledgements
@@ -90,5 +90,5 @@ Thank to his video I've learned so many things
 
 
 ## Contact
-email : jpminlekibe@gmail.com
+email : jpminlekibe@gmail.com  
 LinkedIn : www.linkedin.com/in/jean-pierre-minlekibe-155a93164
