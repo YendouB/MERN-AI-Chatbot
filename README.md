@@ -15,7 +15,7 @@ I built a conversational AI chatbot application with the MERN (MongoDB, Express.
 - **Real-time Messaging**: Supports real-time messaging, allowing for dynamic and responsive conversations between users and the chatbot
 
 - **Restfull API** : The backend is built on API architecture so that we have a scalable application
-- **Authentication, Authorization (JWT, HTTP Only Cookie)** : Th
+- **Authentication, Authorization (JWT, HTTP Only Cookie)**
 
 ## Technologies Used
 
