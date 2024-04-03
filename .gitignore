@@ -1,0 +1,13 @@
+# Dependencies
+**/node_modules/
+
+# Build artifacts
+backend/dist/
+frontend/dist/
+frontend/build/
+
+# Environment variables
+.env
+
+# Specific files or folders
+user-create-totest.txt
