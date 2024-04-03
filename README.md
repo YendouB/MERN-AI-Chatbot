@@ -1,6 +1,6 @@
 # AI ChatBot (MERN Stack, TypeScript, and GPT API Integration)
 
-I built a conversational AI chatbot application with the MERN (MongoDB, Express.js, React.js, Node.js) stack and TypeScript. It leverages the powerful OpenAI API to provide intelligent and natural language responses, enabling users to engage in conversations on various topics.
+This web application is a conversational AI chatbot built with MERN (MongoDB, Express.js, React.js, Node.js) stack and TypeScript. It leverages the powerful OpenAI API to provide intelligent and natural language responses, enabling users to engage in conversations on various topics.
 
 ## Features
 
@@ -50,11 +50,17 @@ npm install
 1. Create a `.env` file in the `backend` directory and add the following environment variables:
 
     OPEN_AI_SECRET=
+
     OPENAI_ORGANISATION_ID=
+
     MONGODB_URL=
+
     JWT_SECRET=
+
     COOKIE_SECRET=
+
     BACKEND_PORT=
+    
     DOMAIN= (your web domain, it can be localhost)
 
 2. In the `frontend/src/main.tsx` file, modify the `axios.defaults.baseURL` to match your backend server URL:
@@ -79,7 +85,7 @@ cd backend
 npm run dev
 
 ## Acknowledgements
-This project is based on the youtube tutorial by Indian Coders available at https://www.youtube.com/watch?v=PX_YOfEdhRg .
+This project is based on the youtube tutorial by Indian Coders available at https://www.youtube.com/watch?v=PX_YOfEdhRg  
 Thank to his video I've learned so many things
 
 
