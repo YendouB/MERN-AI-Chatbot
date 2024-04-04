@@ -41,7 +41,7 @@ git clone https://github.com/your-username/your-repository.git
 cd backend
 npm install
 
-4. Install dependencies for the frontend
+4. Install dependencies for the frontend 
 cd frontend
 npm install
 
